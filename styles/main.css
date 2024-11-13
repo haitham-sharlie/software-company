@@ -1,5 +1,5 @@
 :root{
-  --mainColor: #4F46E5;
+  --mainColor: #1E40AF;
   --background-color: #F0F0F0;
   --color: #212529;
   --menu-color: #ddd;
@@ -7,7 +7,7 @@
   --border:.1rem solid #2125291a;
 }
 :root.active{
-  --mainColor: #4F46E5;
+  --mainColor: #1D4ED8;
   --background-color: #333;
   --color: #eee;
   --menu-color: #474747;
@@ -63,6 +63,7 @@ section{
   border: 1px solid var(--color);
   background-color: var(--mainColor);
   color: #eee;
+  cursor: pointer;
 }
 .interface{
   background:var(--color) url('../images/header-bg.webp') 100% 50% no-repeat;
