@@ -59,6 +59,11 @@ section{
   border: 1px solid var(--mainColor);
   color: var(--mainColor);
 }
+.section-header .button:hover{
+  border: 1px solid var(--color);
+  background-color: var(--mainColor);
+  color: #eee;
+}
 .interface{
   background:var(--color) url('../images/header-bg.webp') 100% 50% no-repeat;
   background-size: cover;
