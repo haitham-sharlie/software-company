@@ -1,0 +1,131 @@
+:root{
+  --mainColor: #2563EB;
+  --background-color: #F0F0F0;
+  --color: #212529;
+  --menu-color: #ddd;
+  --contact-color:#f9f9f9;
+  --border:.1rem solid #2125291a;
+}
+:root.active{
+  --mainColor: #2563EB;
+  --background-color: #333;
+  --color: #eee;
+  --menu-color: #474747;
+  --contact-color: #3c3c3c;
+  --border:.1rem solid #aaa;
+}
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+body{
+  font-family: "Noto Kufi Arabic"  Helvetica,Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--color);
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 5.55rem 0px 10px;
+}
+html{
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+section{
+  padding:  0.625rem 1.5625rem;
+  margin: 1.875rem 0;
+}
+.section-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0.625rem;
+  margin-bottom: 1.25rem;
+}
+.section-header .title{
+  color: var(--mainColor);
+  font-size: 2rem;
+}
+.section-header .button{
+  width: 7.5rem;
+  height: 3.125rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--mainColor);
+  color: var(--mainColor);
+}
+.interface{
+  background:var(--color) url('../images/header-bg.webp') 100% 50% no-repeat;
+  background-size: cover;
+  height: 31.875rem;
+  box-shadow: 0 5px 10px #0003;
+}
+
+
+@media (max-width:440px){
+  html{
+    font-size: 8px;
+  }
+}
+@media (min-width:441px){
+  html{
+    font-size: 12px;
+  }
+}
+@media  (min-width:768px){
+  html{
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px){
+  .header .navbar{
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+    position: fixed;
+    top: 5.6rem;
+    right: -100%;
+    height: calc(100vh - 9.5rem);
+    z-index: 999;
+    width: 35vw;
+    max-width: 18.75rem;
+    overflow-Y: scroll;
+    background-color: var(--menu-color);
+    transition: 0.3s;
+  }
+  .header .navbar.active{
+    right: 0;
+  }
+  .header .navbar a{
+    font-size: 1.3rem;
+    color: var(--color);
+    height: 3.125rem;
+    margin: 1rem 0.625rem;
+    padding: .5rem 1rem;
+  }
+  .header .navbar a:hover{
+    color: var(--mainColor);
+  }
+  .header .navbar .theme{
+    margin: 1.5rem auto;
+    border: 2px solid var(--mainColor);
+  }
+  .header .menu-btn{
+    display: block;
+  }
+}
+@media (min-width:992px){
+  html{
+    font-size: 18px;
+  }
+}
+@media (min-width:1200px){
+  html{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,99 @@
+.header{
+  background: var(--mainColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3125rem 5%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;left: 0;right: 0;
+  z-index: 1000;
+  height: 5.5rem;
+}
+.header .menu-btn {
+  color: #EEE;
+  font-size: 2rem;
+  display: none;
+}
+.header .logo-container{
+  display: flex;
+  align-items: center;
+}
+.header .logo-container .logo{
+  text-align: center;
+  align-content: center;
+  color: var(--mainColor);
+  background-color: #eee;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 20px;
+  font-family: "Rosario", sans-serif;
+  font-weight: 700;
+  padding: .5rem;
+  margin: 0 1rem;
+}
+.header .logo-container .logo .brackets{
+  font-size: 2rem;
+}
+.header .logo-container .logo .letter{
+  font-size: 1.8rem;
+}
+.header .logo-container .text{
+  color: #eee;
+  font-size: 1.8rem;
+  padding: .5rem;
+}
+.header .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar a{
+  margin: 0 1rem;
+  color: #eee;
+  font-size: 1rem;
+  position: relative;
+}
+.header .navbar a::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color);
+  transition: .5s linear;
+}
+.header .navbar a:hover{
+  color: var(--color);
+}
+.header .navbar a:hover::before{
+  width: 100%;
+}
+.header .navbar .theme{
+  position: relative;
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid #eee;
+  border-radius: 3.125rem;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+}
+.header .navbar .theme .dark-theme-btn{
+  position: absolute;
+  right: 10%;
+  font-size: 1.1rem;
+  color: #000;
+  background-color: transparent;
+  transition: right .5s linear;
+}
+.header .navbar .theme .light-theme-btn{
+  position: absolute;
+  right: 10%;
+  font-size: 1.1rem;
+  color: #F59E0B;
+  background-color: transparent;
+  transition: right .5s linear;
+  visibility: hidden;
+}

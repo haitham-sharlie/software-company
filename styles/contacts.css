@@ -1,0 +1,141 @@
+.team-work .section-header{
+  justify-content: center;
+}
+.team-work .contents{
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.team-work .contents .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:.5rem 0 2rem;
+  min-width: 14.5rem;
+}
+.team-work .contents .content .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.team-work .contents .content .image img{
+  width:100%;
+  object-fit: cover;
+  border-radius:50%;
+}
+.team-work .contents .content:hover .image img{
+  opacity: 0.5;
+}
+.team-work .contents .content:hover .image .personal-accounts{
+  opacity: 1;
+}
+.team-work .contents .content .image .personal-accounts{
+  display: flex;
+  position: absolute;
+  bottom: 16px;
+  list-style: none;
+  opacity: 0;
+  transition-delay: .3s;
+  font-size: 1.8rem;
+}
+.team-work .contents .content .image .personal-accounts li{
+  margin: 0 .5rem;
+}
+.team-work .contents .content .person-name{
+  color: var(--mainColor);
+  font-size: 1.8rem;
+}
+.team-work .contents .content .job-title{
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+/* social colors */
+.facebook{
+  color: #1877f2;
+}
+.instagram{
+  color: #c32aa3;
+}
+.whatsapp{
+  color: #25d366;
+}
+.telegram{
+  color: #0088cc;
+}
+.twitter{
+  color: #1da1f2;
+}
+.linkedin{
+  color: #0a66c2;
+}
+.github{
+  color: #000;
+}
+.contacts .section-header{
+  justify-content: center;
+}
+.contacts .contacts-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  gap: 30px 20px;
+  justify-content: space-around;
+}
+.contacts .contacts-container .form-container .contact-form,
+.contacts .contacts-container .contact-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  min-height: 400px;
+  border: var(--border);
+  margin:16px auto;
+  background-color: var(--contact-color);
+}
+.contacts .contacts-container .form-container .contact-form input,
+.contacts .contacts-container .contact-info-container .contact-info{
+  width: 95%;
+  height: 60px;
+  margin: 16px auto;
+  padding: 8px;
+  border: var(--border);
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+.contacts .contacts-container .form-container .contact-form textarea{
+  width: 95%;
+  margin: 16px auto;
+  padding: 8px;
+  border: var(--border);
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+.contacts .contacts-container .form-container .contact-form .submit-btn{
+  max-width: 200px;
+  margin: 16px auto;
+  padding: 8px;
+  background-color: var(--mainColor);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: var(--border);
+  border-radius: 4px;
+}
+.contacts .contacts-container .contact-info-container .contact-info{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  overflow-x: scroll;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.contacts .contacts-container .contact-info-container .contact-info .icon{
+  margin: 0 16px;
+  font-size: 1.3rem;
+  color: var(--mainColor);
+}
+.contacts .contacts-container .contact-info-container .contact-info .social-icon{
+  margin: 0 auto;
+  font-size: 1.5rem;
+}

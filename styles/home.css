@@ -1,0 +1,30 @@
+.home{
+  background: var(--background-color) url('../images/Firmware-cuate.svg') top center no-repeat;
+  background-blend-mode: multiply;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color);
+}
+.home .desc-container .desc{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.home .head{
+  display: flex;
+  justify-content: space-between;
+  padding:  0.625rem;
+  margin-bottom: 1.25rem;
+}
+.home .head .title{
+  color: var(--mainColor);
+}
+.home .head .button{
+  width: 7.5rem;
+  height: 3.125rem;
+  text-align: center;
+  align-content: center;
+  border: 1px solid var(--mainColor);
+  color: var(--mainColor);
+}

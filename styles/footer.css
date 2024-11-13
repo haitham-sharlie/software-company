@@ -1,0 +1,48 @@
+.footer .container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  padding: 6.25rem 1.25rem 0;
+  background-color: var(--menu-color);
+}
+.footer .container ul{
+  line-height: 2.5;
+  list-style: none;
+}
+.footer .container ul .title{
+  display: block;
+  color: var(--color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+.footer .container ul li a{
+  color: var(--mainColor);
+}
+.footer .container .contacts li{
+  display: inline-block;
+}
+.footer .container .contacts .facebook{
+  background-color: #1D4ED8;
+  color: #fff;
+  font-size: 1.875rem;
+  padding: 0.75rem 0.625rem;
+  border-radius: 2px;
+}
+.footer .container .contacts .linkedin{
+  background-color: #0284C7;
+  color: #fff;
+  font-size: 1.875rem;
+  padding: 0.75rem 0.625rem;
+  border-radius: 2px;
+}
+.footer .container .contacts .card{
+  font-size: 4.375rem;
+  color: var(--color);
+}
+.footer .copyright{
+  font-size: 0.9rem;
+  color: #777;
+  padding: 1.25rem 0.625rem;
+}
