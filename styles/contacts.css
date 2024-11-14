@@ -78,7 +78,7 @@
 }
 .contacts .contacts-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
   gap: 30px 20px;
   justify-content: space-around;
 }
