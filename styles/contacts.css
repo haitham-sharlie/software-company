@@ -122,6 +122,11 @@
   border: var(--border);
   border-radius: 4px;
 }
+.contacts .contacts-container .form-container .contact-form .submit-btn:hover{
+  background-color: #fff;
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
 .contacts .contacts-container .contact-info-container .contact-info{
   display: flex;
   align-items: center;

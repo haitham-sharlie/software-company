@@ -20,7 +20,7 @@
   outline: none; border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: .2s linear;
+  transition: .3s linear;
 }
 body{
   font-family: "Noto Kufi Arabic"  Helvetica,Arial, sans-serif;
@@ -102,7 +102,6 @@ section{
     max-width: 18.75rem;
     overflow-Y: scroll;
     background-color: var(--menu-color);
-    transition: 0.3s;
   }
   .header .navbar.active{
     right: 0;
