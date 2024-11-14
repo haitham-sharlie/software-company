@@ -75,12 +75,12 @@ section{
 
 @media (max-width:440px){
   html{
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media (min-width:441px){
   html{
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media  (min-width:768px){
