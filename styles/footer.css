@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3,1fr) ;
   padding: 6.25rem 1.25rem 0;
-  background-color: var(--menu-color);
+  background-color: var(--secondary-background);
 }
 .footer .container ul{
   line-height: 2.5;
@@ -10,7 +10,7 @@
 }
 .footer .container ul .title{
   display: block;
-  color: var(--color);
+  color: var(--text-color);
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -18,7 +18,7 @@
   width: 100%;
 }
 .footer .container ul li a{
-  color: var(--mainColor);
+  color: var(--text-secondary-color);
 }
 .footer .container .contacts li{
   display: inline-block;
@@ -39,7 +39,7 @@
 }
 .footer .container .contacts .card{
   font-size: 4.375rem;
-  color: var(--color);
+  color: var(--text-color);
 }
 .footer .copyright{
   font-size: 0.9rem;

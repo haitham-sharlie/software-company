@@ -45,7 +45,7 @@
   margin: 0 .5rem;
 }
 .team-work .contents .content .person-name{
-  color: var(--mainColor);
+  color: var(--primary-color);
   font-size: 1.8rem;
 }
 .team-work .contents .content .job-title{
@@ -93,7 +93,7 @@
   min-height: 400px;
   border: var(--border);
   margin:16px auto;
-  background-color: var(--contact-color);
+  background-color: var(--secondary-background);
 }
 .contacts .contacts-container .form-container .contact-form input,
 .contacts .contacts-container .contact-info-container .contact-info{
@@ -117,7 +117,7 @@
   max-width: 200px;
   margin: 16px auto;
   padding: 8px;
-  background-color: var(--mainColor);
+  background-color: var(--primary-color);
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -126,8 +126,8 @@
 }
 .contacts .contacts-container .form-container .contact-form .submit-btn:hover{
   background-color: #fff;
-  color: var(--mainColor);
-  border: 1px solid var(--mainColor);
+  color: var(--hover-color);
+  border: 1px solid var(--hover-color);
 }
 .contacts .contacts-container .contact-info-container .contact-info{
   display: flex;
@@ -140,7 +140,7 @@
 .contacts .contacts-container .contact-info-container .contact-info .icon{
   margin: 0 16px;
   font-size: 1.3rem;
-  color: var(--mainColor);
+  color: var(--primary-color);
 }
 .contacts .contacts-container .contact-info-container .contact-info .social-icon{
   margin: 0 auto;

@@ -32,7 +32,7 @@
 .about .advantages .cart .icon{
   font-size: 5rem;
   margin-bottom: 20px;
-  color: var(--mainColor);
+  color: var(--primary-color);
 }
 .about .advantages .advantage-title{
   font-size: 1.6rem;
