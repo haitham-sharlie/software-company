@@ -1,6 +1,5 @@
 .home{
   background: var(--background-color) url('../images/Firmware-cuate.svg') center 20% no-repeat;
-  background-blend-mode: multiply;
   height: 45rem;
   display: flex;
   flex-direction: column;
